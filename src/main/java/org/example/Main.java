@@ -1,6 +1,7 @@
 package org.example;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,12 +19,13 @@ public class Main {
         Student csStudent = new ComputerScienceStudent("Zorro", 33, true, 200);
         System.out.println(csStudent);
 
+// Eine List von Kontakten erstellen
+// Smartphone erstellen
+// Ausgabe Smartphone (Sout)
+
+
 
 
     }
-
-
-
-
 
 }
