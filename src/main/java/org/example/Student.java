@@ -1,6 +1,6 @@
 package org.example;
 
-public class Student {
+public abstract class Student {
 
     private String name;
     private int id;
@@ -50,6 +50,11 @@ public class Student {
         result = 31 * result + getId();
         return result;
     }
+
+    // Mache deine Student Klasse zu einer abstrakten Klasse.
+    // Füge der Klasse Student eine abstracte Methode hinzu. Lasse diese von deiner ComputerScienceStudent Klasse implementieren.
+
+    public abstract String getCourse();
 }
 
 
